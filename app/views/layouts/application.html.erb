@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>4 Women</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div class="nav">
+    <div class="container">
+      <ul>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/who_we_are">Quem somos</a></li>
+        <li><a href="/contacts">Contatos</a></li>
+        <li><a href="/sing_up">Inscreva-se</a></li>
+        <li><a href="/login_in">Entrar</a></li>
+        <li><a href="/helper">Ajuda</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+    <%= yield %>
+  </div>
+
+  <div class="container">
+    <footer>
+    4 Women - Create, innovate, develop and revolutionize!
+    </fotter>
+  </div>
+</body>
+</html>
