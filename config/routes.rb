@@ -1,13 +1,5 @@
 Rails.application.routes.draw do
-
-  resources :home
-  resources :who_we_are
-  resources :contacts
-  resources :sing_up
-  resources :login_in
-  resources :helper
-
-  root 'home#index'
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
